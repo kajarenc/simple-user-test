@@ -1,8 +1,8 @@
 import streamlit as st
 
-st.write(st.user.email)
+st.write(st.experimental_user.email)
 
-st.write(st.user)
+st.write(st.experimental_user)
 
 x = st.slider("X:", 0, 100, 5)
 st.write(x**2)
